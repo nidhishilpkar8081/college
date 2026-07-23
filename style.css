@@ -100,18 +100,18 @@ header {
     .nav-menu {
         flex-direction:column;
         display:none;  
-        position: absolute;
+        position: fixed;
         top:100%;
         left: 0; 
         background:rgba(0,114,225,0.9);  
         width:  100%;
-        z-index:100;
-
+        z-index:9999;
+        height: calc(100vh - 70px);
+        overflow-y: auto;
     }
 
     .nav-menu.active{
         display:flex;
-        padding-top:10px;
     }
 
     .nav-menu li{
