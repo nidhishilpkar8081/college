@@ -101,7 +101,7 @@ header {
         flex-direction:column;
         display:none;  
         position: fixed;
-        top:100%;
+        top:70px;
         left: 0; 
         background:rgba(0,114,225,0.9);  
         width:  100%;
