@@ -721,3 +721,13 @@ footer{
     color: #666;
     margin: 20px;
 }
+
+@media (max-width: 768px) {
+    html {
+        scroll-padding-top: 90px;
+    }
+
+    section {
+        scroll-margin-top: 90px;
+    }
+}
