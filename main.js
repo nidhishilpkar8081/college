@@ -1,7 +1,7 @@
 const mobileMenu = document.getElementById('mobile-menu');
 const navMenu = document.querySelector('.nav-menu');
 
-mobileMenu.addEventListener('click',() =>{
+mobileMenu.addEventListener('click', () =>{
     navMenu.classList.toggle('active');
 });
 
@@ -11,7 +11,7 @@ const slides = document.querySelector('.slides');
 const slide = document.querySelectorAll('.slide');
 const totalSlides = slide.length;
 
-const slideWidth=100;
+const slideWidth = 100;
 
 
 const firstSlide = slide[0].cloneNode(true);
@@ -27,13 +27,13 @@ slides.style.transform = "translateX(-" + slideWidth + "%)";
 function nextSlide() {
     slideIndex++;
     if (slideIndex >= totalSlides + 1){
-        slideIndex =1;
+        slideIndex = 1;
         slides.style.transition ="none";
         slides.style.transform = "translateX(-" + slideWidth + "%)";
         setTimeout(() => {
     slides.style.transition ="transform 1.5s ease";
         },20);
-    } else{
+    } else {
         slides.style.transition = "transform 1.5s ease";
         slides.style.transform = "translateX(-" + (slideIindex * slideWidth) + "%)";
     }
@@ -54,13 +54,13 @@ function prevSlide() {
 }
 }
 
-setInterval(nextSlide,5000);
+setInterval(nextSlide, 5000);
 
 
 function plusSlides(n) {
     if (n > 0){
         nextSlide();
-    }else {
+    } else {
         prevSlide();
     }
 }
