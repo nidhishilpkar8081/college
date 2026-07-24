@@ -389,8 +389,9 @@ position:relative;
 
 .academics-section p{
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.8;
     color:#333;
+    margin-bottom: 20px;
 }
 
 .academics-areas {
@@ -424,6 +425,7 @@ position:relative;
     border: 5px solode white;
     border-radius: 10px;
     box-sizing: border-box;
+    margin-top: 20px;
 }
 
 .academic-img:hover{
