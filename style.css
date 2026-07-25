@@ -14,8 +14,10 @@ header {
     background: linear-gradient(90deg, #0072ff,#00c6ff);
     color: #fff;
     padding:  10px 0;
-    position:  sticky;
+    position:  fixed;
     top:0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
 }
 
@@ -101,7 +103,7 @@ header {
         flex-direction:column;
         display:none;  
         position: fixed;
-        top:70px;
+        top:80px;
         left: 0; 
         background-color:rgba(0,123, 255);  
         width:  100%;
