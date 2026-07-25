@@ -360,6 +360,9 @@ transition: transform 0.3s ease;
         object-fit: contain;
     }
 
+      #about {
+        scroll-margin-top: 5px;
+      }
 }
 
 /* Academic Section*/
