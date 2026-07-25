@@ -103,11 +103,12 @@ header {
         position: fixed;
         top:70px;
         left: 0; 
-        background:rgba(0,114,225,0.9);  
+        background-color:rgba(0,123, 255);  
         width:  100%;
         z-index:9999;
         height: calc(100vh - 70px);
         overflow-y: auto;
+        opacity: 1;
     }
 
     .nav-menu.active{
