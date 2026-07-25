@@ -353,8 +353,8 @@ transition: transform 0.3s ease;
         margin-bottom: 20px;
     }
 
-    .about-img {
-        max-width: 100%;
+     .vision .about-img {
+        width: 100%;
         height: auto;
         object-fit: contain;
     }
